@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA</title>
+    <script src="/index.js"></script>
+    <link rel="manifest" href="/manifest.json">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            gap: 1rem;
+            padding: 1rem;
+            margin: 0;
+        }
+        button {
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>PWA Tester</h1>
+    <button id="instantPush">Instant push notification</button>
+    <button id="programmedPush">Programmed push notification (5sc)</button>
+</body>
+</html>
